@@ -348,6 +348,10 @@ footer .line-footer p a {
     /* Classes Gerais*/
 
     .flex {
+        flex-direction: column;
+    }
+
+    .topo-do-site .flex{
         flex-direction: column-reverse;
     }
 
@@ -428,5 +432,18 @@ footer .line-footer p a {
     section.portifolio .flex {
        gap: 60px;
     }
+
+    /*Rodapé*/
+
+    footer .flex {
+        flex-direction: column;
+        gap: 30px;
+    }
+    footer .line-footer {
+        text-align: center;
+    }
+
+
+
 
 }
